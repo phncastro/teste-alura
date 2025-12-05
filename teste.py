@@ -5,9 +5,9 @@ condicao = 1
 def saudar(saudacao, nome):
     print(f"{saudacao} {nome}!")
 
-saudar("Bom dia", "Pablo")
+saudar("Bom dia,", "Pablo")
 
-    
+saudar("Bom dia,", nome)
 
 while condicao:
     if idade >= 18:
